@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.newandroidproject"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.newandroidproject.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.newandroidproject.PlayActivity"
+            android:label="@string/title_activity_play" >
+        </activity>
+        <activity
+            android:name="com.example.newandroidproject.PeriodicTableActivity"
+            android:label="@string/title_activity_periodic_table" >
+        </activity>
+        <activity
+            android:name="com.example.newandroidproject.ElementActivity"
+            android:label="Element" >
+        </activity>
+        <activity
+            android:name="com.example.newandroidproject.ElementListActivity"
+            android:label="@string/title_activity_periodic_table" >
+        </activity>
+        <activity
+            android:name="com.example.newandroidproject.SelectedElement"
+            android:label="@string/title_selected_element" >
+        </activity>
+        <activity
+            android:name="com.example.newandroidproject.MenuActivity"
+            android:label="@string/title_activity_menu" >
+        </activity>
+        <activity
+            android:name="com.example.newandroidproject.ScoreBoard"
+            android:label="@string/title_activity_score_board" >
+        </activity>
+        <activity
+            android:name="com.example.newandroidproject.ElementHelp"
+            android:label="@string/title_activity_help" >
+        </activity>
+        <activity
+            android:name="com.example.newandroidproject.ChooseUserActivity"
+            android:label="@string/title_activity_choose_user" >
+        </activity>
+        <activity
+            android:name="com.example.newandroidproject.AddUser"
+            android:label="@string/title_activity_add_user" >
+        </activity>
+        <activity
+            android:name="com.example.newandroidproject.ChallengeMode"
+            android:label="@string/title_activity_challenge_mode" >
+        </activity>
+        <activity
+            android:name="com.example.newandroidproject.RelaxModeActivity"
+            android:label="@string/title_activity_relax_mode" >
+        </activity>
+        <activity
+            android:name="com.example.newandroidproject.ExpertMode"
+            android:label="@string/title_activity_expert_mode" >
+        </activity>
+        <activity
+            android:name="com.example.newandroidproject.CombineElementActivity"
+            android:label="@string/title_activity_combine_element" >
+        </activity>
+        <activity
+            android:name="com.example.newandroidproject.MasterActivity"
+            android:label="@string/title_activity_master" >
+        </activity>
+        <activity
+            android:name="com.example.newandroidproject.MasterLevel2Activity"
+            android:label="@string/title_activity_master_level2" >
+        </activity>
+        <activity
+            android:name="com.example.newandroidproject.DashBoardActivity"
+            android:label="@string/title_activity_dash_board" >
+        </activity>
+    </application>
+
+</manifest>

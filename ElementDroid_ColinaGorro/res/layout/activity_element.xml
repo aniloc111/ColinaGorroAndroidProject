@@ -1,0 +1,153 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/detail_background" >
+
+    <LinearLayout android:id="@+id/elem_linear"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		 >
+		
+    <TextView
+	  	android:id="@+id/elem_name"
+	  	android:layout_width="wrap_content"
+	  	android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:textColor="@color/element_text"/>
+    
+    <ImageView
+        android:id="@+id/elem_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+	  	android:id="@+id/elem_classification"
+	  	android:layout_width="wrap_content"
+	  	android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="15sp"
+        android:textColor="#ECF0F1" />
+    
+    <TextView
+	  	android:id="@+id/elem_description"
+	  	android:layout_width="wrap_content"
+	  	android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center" 
+        android:layout_marginTop="25dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textSize="20sp"
+        android:textColor="@color/element_description"/>
+    
+    <TextView
+	  	android:id="@+id/elem_atomic_number"
+	  	android:layout_width="wrap_content"
+	  	android:layout_height="wrap_content"
+        android:gravity="center" 
+        android:layout_gravity="center"
+        android:textColor="@color/element_other_details"/>
+
+    <TextView
+	  	android:id="@+id/elem_atomic_weight_label"
+	  	android:layout_width="wrap_content"
+	  	android:layout_height="wrap_content"
+        android:gravity="center" 
+        android:layout_gravity="center"
+        android:textColor="@color/element_label"
+        android:text="@string/label_atomic_weight"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"/>
+    
+	<TextView
+	  	android:id="@+id/elem_atomic_weight"
+	  	android:layout_width="wrap_content"
+	  	android:layout_height="wrap_content"
+        android:gravity="center" 
+        android:layout_gravity="center"
+        android:textColor="@color/element_other_details"/>
+	
+	<TextView
+	  	android:id="@+id/elem_color_label"
+	  	android:layout_width="wrap_content"
+	  	android:layout_height="wrap_content"
+        android:gravity="center" 
+        android:layout_gravity="center"
+        android:textColor="@color/element_label"
+        android:text="@string/label_atomic_weight"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"/>
+	    
+	<TextView
+	  	android:id="@+id/elem_color"
+	  	android:layout_width="wrap_content"
+	  	android:layout_height="wrap_content"
+        android:gravity="center" 
+        android:layout_gravity="center"
+        android:textColor="@color/element_other_details"/>
+	
+	<TextView
+	  	android:id="@+id/elem_melting_point_label"
+	  	android:layout_width="wrap_content"
+	  	android:layout_height="wrap_content"
+        android:gravity="center" 
+        android:layout_gravity="center"
+        android:textColor="@color/element_label"
+        android:text="@string/label_melting_point"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"/>
+	
+	<TextView
+	  	android:id="@+id/elem_melting_point"
+	  	android:layout_width="wrap_content"
+	  	android:layout_height="wrap_content"
+        android:gravity="center" 
+        android:layout_gravity="center"
+        android:textColor="@color/element_other_details"/>
+	
+	<TextView
+	  	android:id="@+id/elem_boiling_point_label"
+	  	android:layout_width="wrap_content"
+	  	android:layout_height="wrap_content"
+        android:gravity="center" 
+        android:layout_gravity="center"
+        android:textColor="@color/element_label"
+        android:text="@string/label_boiling_point"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"/>
+	
+	<TextView
+	  	android:id="@+id/elem_boiling_point"
+	  	android:layout_width="wrap_content"
+	  	android:layout_height="wrap_content"
+        android:gravity="center" 
+        android:layout_gravity="center"
+        android:textColor="@color/element_other_details"/>
+	
+	<TextView
+	  	android:id="@+id/elem_density_of_solid_label"
+	  	android:layout_width="wrap_content"
+	  	android:layout_height="wrap_content"
+        android:gravity="center" 
+        android:layout_gravity="center"
+        android:textColor="@color/element_label"
+        android:text="@string/label_density_of_solid"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"/>
+	
+	<TextView
+	  	android:id="@+id/elem_density_of_solid"
+	  	android:layout_width="wrap_content"
+	  	android:layout_height="wrap_content"
+        android:gravity="center" 
+        android:layout_gravity="center"
+        android:textColor="@color/element_other_details"/>
+	</LinearLayout>
+</ScrollView>

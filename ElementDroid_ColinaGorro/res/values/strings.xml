@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">E-DROID</string>
+    <string name="action_settings">Settings</string>
+    <string name="element_help">Help</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_play">Play Activity</string>
+    <string name="title_activity_combine_element">Combine Elements</string>
+    <string name="title_activity_periodic_table">Periodic Table</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="title_activity_score_board">Score Board</string>
+    <string name="title_activity_choose_user">Choose User</string>
+    <string name="title_activity_add_user">Add User</string>
+    <string name="title_activity_challenge_mode">Challenge Mode</string>
+    <string name="title_activity_relax_mode">Relax Mode </string>
+    <string name="title_activity_expert_mode">Expert Mode</string>
+    <string name="title_activity_help">Help</string>
+    <string name="title_selected_element">Element</string>
+    <string name="main_activity_play">PLAY</string>
+
+    <!-- Label -->
+    <string name="label_atomic_number">Atomic Number</string>
+    <string name="label_atomic_weight">Atomic Weight</string>
+    <string name="label_color">Color</string>
+    <string name="label_melting_point">Melting Point</string>
+    <string name="label_boiling_point">Boiling Point</string>
+    <string name="label_density_of_solid">Density of Solid</string>
+    <string name="topic_activity_label">Help Topic</string>
+    <string name="topic1_name">Hello World, SimpleHelpActivity!</string>
+    <string name="topic1_text">Simple Help</string>
+    <string name="no_help_available">      There is no help available at this time.</string>
+    <string name="about_help_topics">      Help is available for each section of this app.</string>
+    <string name="help_page_intro">Different Parts of the app is presented below.</string>
+    <string name="help_title_section1">Topics</string>
+    <string name="help_text_section1">     Each help topic has a full page of information. 
+     Long topics can be scrolled.</string>
+    <string name="help_title_section2">Periodic table</string>
+    <string name="help_text_section2">	You can study if you are going to this part of the app. List elements will be given to you.
+	Descriptions and any other information of the element will be given to you by simply clicking the element
+	the list.</string>
+    <string name="help_title_section3">Lets Combine</string>
+    <string name="help_text_section3">		In this part of the app, you can learn the result of the combination of different elements.</string>
+    <string name="help_title_section4">Relax Mode</string>
+    <string name="help_text_section4">			Questions will be given to you to check your knowledge. Choices will be given to
+			have an ease in answering the questions.</string>
+    <string name="help_title_section5">Challenge Mode</string>
+    <string name="help_text_section5">			Questions will be given to you to check you knowledge. Choices will be given to have
+			an ease in answering the questions but time limit will given to you.</string>
+    <string name="help_title_section6">Expert Mode</string>
+    <string name="help_text_section6">			Questions will be given but choices will not be available and time limit will be given to you.</string>
+    <string name="element_combo_box">Choose an Element</string>
+
+    <string-array name="element_arrays">
+        <item>H</item>
+        <item>He</item>
+        <item>Li</item>
+        <item>Be</item>
+        <item>B</item>
+        <item>C</item>
+        <item>N</item>
+        <item>O</item>
+        <item>F</item>
+        <item>Ne</item>
+    </string-array>
+
+    <string name="first_element">First Element</string>
+    <string name="second_element">Second Element</string>
+    <string name="combine">Combine</string>
+    <string name="number_of_elements">Number of Elements</string>
+    <string name="compound">New Compound</string>
+    <string name="title_activity_master">Master Mode</string>
+    <string name="title_activity_master_level2">Master Mode Level 2</string>
+    <string name="title_activity_dash_board">Dash Board</string>
+
+</resources>

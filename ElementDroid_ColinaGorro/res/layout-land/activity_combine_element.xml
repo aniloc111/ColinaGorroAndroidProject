@@ -1,0 +1,185 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/detail_background"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".CombineElementActivity" >
+
+    <RelativeLayout 
+        android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+		
+    <TextView
+        android:id="@+id/first_element_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/spinner1"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/first_element"
+        android:textColor="@color/element_label"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/first_element_label"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@color/first_combo"
+        android:entries="@array/element_arrays"
+        android:prompt="@string/element_combo_box"/>
+    
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/numberPicker1"
+        android:layout_alignRight="@+id/TextView01"
+        android:layout_marginBottom="23dp"
+        android:textColor="@color/number_of_elements"
+        android:textSize="70sp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    <!--  <SeekBar
+         android:id="@+id/seekBar1"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:layout_alignRight="@+id/button1"
+         android:layout_below="@+id/number_of_elements"
+         android:layout_marginTop="10dp"
+         android:max="10" /> -->
+    
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/numberPicker1"
+        android:layout_marginTop="50dp"
+        android:text="@string/second_element"
+        android:textColor="@color/element_label"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    
+    <Spinner
+        android:id="@+id/Spinner01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/spinner1"
+        android:layout_below="@+id/TextView01"
+        android:layout_marginTop="10dp"
+        android:background="@color/second_combo"
+        android:entries="@array/element_arrays"
+        android:prompt="@string/element_combo_box" />
+    
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/numberPicker2"
+        android:layout_alignRight="@+id/TextView01"
+        android:layout_marginBottom="23dp"
+        android:textColor="@color/number_of_elements"
+        android:textSize="70sp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+     <!-- <SeekBar
+         android:id="@+id/seekBar2"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:layout_alignRight="@+id/button1"
+         android:layout_below="@+id/number_of_elements_2"
+         android:layout_marginTop="10dp"
+         android:max="10" /> -->
+     
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/numberPicker2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:text="@string/combine"
+        android:textColor="#fff"
+        android:background="@drawable/playbutton"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:onClick="combineElements" />
+    
+    <TextView
+        android:id="@+id/combine_element"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/spinner1"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/TextView02"
+        android:layout_marginTop="20dp"
+        android:background="@color/action_bar"
+        android:gravity="center"
+        android:textColor="@color/element_label"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <NumberPicker
+        android:id="@+id/numberPicker2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/Spinner01"
+        android:layout_marginTop="32dp" />
+
+    <NumberPicker
+        android:id="@+id/numberPicker1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/spinner1"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/number_of_elements"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/numberPicker1"
+        android:layout_marginTop="26dp"
+        android:text="@string/number_of_elements"
+        android:textColor="@color/element_label"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/number_of_elements_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/numberPicker2"
+        android:layout_marginTop="20dp"
+        android:text="@string/number_of_elements"
+        android:textColor="@color/element_label"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/button1"
+        android:text="@string/compound"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/element_label"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    
+	</RelativeLayout>
+</ScrollView>

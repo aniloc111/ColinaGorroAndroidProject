@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="light_font">#FBFBFB</color>
+    <color name="grey_font">#ff9e9e9e</color>
+    <color name="text_shadow">#05d2f0</color>
+    <color name="text_shadow_white">#FFFFFF</color>
+    <color name="action_bar">#9b59b6</color>
+    <color name="detail_background">#2B2B2B</color>
+    <color name="element_text">#F1c40F</color>
+    <color name="element_description">#F39C12</color>
+    <color name="element_description_bg">#3498db</color>
+    <color name="element_label">#BDC3C7</color>
+    <color name="element_other_details">#3498db</color>
+    <color name="choice_first">#3498db</color>
+    <color name="choice_second">#2ECC71</color>
+    <color name="choice_third">#1ABC9C</color>
+    
+    <color name="light_background">#ffffffff</color>
+    <color name="dark_background">#ff000000</color>
+    <color name="foreground1">#ff000000</color>
+    <color name="light_foreground1">#ffeeeeee</color>
+    <color name="dark_foreground1">#ff000000</color>
+    
+    <color name="number_of_elements">#F89406</color>
+    <color name="first_combo">#3498DB</color>
+    <color name="first_combo_content">#D35400</color>
+    <color name="second_combo">#2980B9</color>
+</resources>
